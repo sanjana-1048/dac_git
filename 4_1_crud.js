@@ -8,7 +8,7 @@ user:"dac",
 password:"dac"
 });
 connection.connect();
-console.log("Git here");
+console.log("Git ");
 app.use(express.json());
 app.get("/emps",(request,response)=>{
 var queryText="select * from EMP ";
