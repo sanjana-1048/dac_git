@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Weather Api</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  ">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mx-auto">
+                <li class="nav-item ">
+                    <a class="nav-link text-dark  font-weight-bold" href="home.html">Home </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark font-weight-bold" href="currentlocation.html">Current Location</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-dark  font-weight-bold" href="search.html">Search Cities</a>
+                </li>
+
+        </div>
+    </nav>
+    
+    <div class="jumbotron mx-auto mt-5 w-50 justify-content-center" >
+        
+            <div style="margin-left:180px">
+                        <input type="text" id="ip1" class="form-control-sm border border-1 border-danger  ">
+                        <button type="button" id="search"class="btn btn-success mx-auto">Search</button>
+                    </div>
+    </div>
+    
+
+
+<div class="row" style="margin-top:25px">
+        <div id="div12"class="j-place m-auto jumbotron col-4 b" >
+
+                
+<h4> City</h4>
+
+
+            </div>
+            <div id="div13" class="w-50 m-auto col-4 jumbotron" >
+    <h4> Weather Forecast </h4>
+            </div>
+</div>
+                   
+
+
+
+
+
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+</body>
+
+</html>
